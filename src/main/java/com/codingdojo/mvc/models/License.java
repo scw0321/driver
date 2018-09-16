@@ -76,4 +76,9 @@ public class License {
 		this.driver = driver;
 	}
     
+	@Override
+	public String toString() {
+		return "id: " + this.id + " state: " + this.state;
+	}
+    
 }

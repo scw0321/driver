@@ -23,9 +23,9 @@
         <form:input path="state"/>
     </p>
     <p>
-        <form:label path="exp">Expiration Date</form:label>
-        <form:errors path="exp"/>
-        <form:input path="exp"/>
+        <form:label path="expiration_date">Expiration Date</form:label>
+        <form:errors path="expiration_date"/>
+        <form:input path="expiration_date"/>
     </p>
     
     <input type="submit" value="Create"/>

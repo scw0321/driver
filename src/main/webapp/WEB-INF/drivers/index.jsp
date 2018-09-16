@@ -1,5 +1,4 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
-<%@ page language ="java" contentType="text/html; charset=UTF-8" pageEncoding = "UTF-8" %>
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <%@ page import = "java.io.*,java.util.*, javax.servlet.*" %>    
 <!DOCTYPE html>
@@ -28,9 +27,9 @@
         <tr>
             <td><c:out value="${driver.firstName}"/></td>
             <td><c:out value="${driver.lastName}"/></td>
-            <td><c:out value="${license.num}"/></td>
-            <td><c:out value="${license.state}"/></td>
-            <td><c:out value="${license.expiration_date}"/></td>
+            <td><c:out value="${driver.license.number}"/></td>
+            <td><c:out value="${driver.license.state}"/></td>
+            <td><c:out value="${driver.license.expiration_date}"/></td>
         </tr>
         </c:forEach>
     </tbody>

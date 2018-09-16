@@ -79,5 +79,10 @@ public class Driver {
 		this.license = license;
 	}
     
+	@Override
+	public String toString() {
+		return this.id + " " + this.firstName + " " + this.lastName + " " + this.license;
+	}
+    
     
 }
